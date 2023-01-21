@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    /* max-width: 1000px; */
+    background-color: rgb(255, 250, 235);
+}
+
+ul li{
+    list-style: none;
+}
+
+a {
+    color: green;
+    font-weight: bold;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin-left: 10px;
+}
+
+h1, h2, h4 {
+    margin-left: 10px;
+}
+
+nav {
+   text-align: center;
+   padding: 10px 10px; /* отступ у блока сверху и снизу */
+   border-bottom: 4px solid grey;
+}
+
+nav a {
+    margin-left: 40px;
+}
+
+.img-wrapper {
+    text-align: center;
+}
+
+.img-me{
+    border-radius: 10px;
+}
+
